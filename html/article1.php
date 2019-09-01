@@ -4,67 +4,68 @@
     <head>
 
         <Title> Tech Hits </Title>
-    
-        <link href="main.css" rel="stylesheet" type="text/css"/>
-        <link href="articles.css" rel="stylesheet" type="text/css"/>
+
+        <link href="../css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/articles.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
-    
+
     <body>
-        
-        <nav>
-            
-                <a href="index.html"><image id="icon" src="Icon.png" alt="#"></image></a>
-                
-                <ul>
-                    <!-- Links in Nav bar to other pages -->
-                    <a class="navlinks" href="index.html"><li>Home</li>
-                    <image src="Hline.jpg"></image>
-                    </a>
-                    <a class="navlinks" href="about.html"><li>About</li>
-                    <image src="Hline.jpg"></image>
-                    </a>
-                    <a class="navlinks" href="contact.html"><li>Contact</li>
-                    <image src="Hline.jpg"></image>
-                    </a>
-                    
-                
-                </ul>    
-                <!-- Social Media Icons on Navigation bar -->
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our Page is still in development"><img src="facebook%20color.png" /></span>
-                </a>
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our Page is still in development"><img src="github%20color.1.png" /></span>
-                </a>
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our Channel is still in development"><img src="youtube%20color.png" /></span>
-                </a>
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our RSS feed is still in development"><img src="rss%20color.png" /></span>
-                </a>
-        </nav>
-        
+
+      <nav>
+
+              <a href="../index.php"><image id="icon" src="../assets/Icon.png" alt="#"></image></a>
+
+              <ul>
+                  <!-- Nav Bar main links to other pages-->
+                  <a class="navlinks" href="../index.php"><li>Home</li>
+                  <image src="../assets/Hline.jpg"></image>
+                  </a>
+                  <a class="navlinks" href="about.php"><li>About</li>
+                  <image src="../assets/Hline.jpg"></image>
+                  </a>
+                  <a class="navlinks" href="contact.php"><li>Contact</li>
+                  <image src="../assets/Hline.jpg"></image>
+                  </a>
+
+
+              </ul>
+              <!-- Social Icons in Nav bar-->
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our Page is still in development"><img src="../assets/facebook.png" /></span>
+              </a>
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our Page is still in development"><img src="../assets/github.png" /></span>
+              </a>
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our Channel is still in development"><img src="../assets/youtube.png" /></span>
+              </a>
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our RSS feed is still in development"><img src="../assets/rss.png" /></span>
+              </a>
+
+      </nav>
+
         <section class="articles">
             <!-- Article pages, lacks proper layouts and UX, which are still in development.-->
             <h1>Samsung UE49KU6100 Curved HDR 4K Ultra HD</h1>
             <img class="mainimage" src="samsungtv.jpg" alt="samsung">
             <p>We had a great pleasure provided by Samsung to test its one of the most desired 4k HDR Tv's</p>
-            
+
             <p>Some of more in depth specifications can be found <a target="_blank" href="http://www.johnlewis.com/samsung-ue49ku6100-curved-hdr-4k-ultra-hd-smart-tv-49-with-freeview-hd-playstation-now-purcolour/p3077613">Here</a></p>
-            
+
             <!-- I input main content that is automatically generated, since creating proper one would a lot of time. Hopefully will create all of the content in next few months-->
             <p>nec nullam in ut accumsan dui vivamus reprehenderit voluptatibus sapien inceptos hendrerit id nonummy convallis nibh aenean hendrerit quam ut euismod amet pellentesque mi sollicitudin purus suspendisse lacus felis bibendum eros nec suscipit vitae nulla arcu elit erat suspendisse tincidunt occaecati conubia tristique lectus urna sit adipiscing risus ultrices sem pede vulputate purus lacus arcu massa amet venenatis inceptos sed sociis fermentum diam cras a et venenatis nullam urna eleifend sem viverra nunc lectus duis nec ut wisi semper accumsan vel cum amet in adipiscing hendrerit amet porta lobortis sodales arcu sapien sit mi volutpat ut montes a auctor vestibulum velit voluptatem lacus mi quis magna velit at ac odio feugiat imperdiet velit odio dui orci in facilisi duis porta nibh ac nibh et sociosqu sed class accusamus pulvinar venenatis morbi accumsan libero nunc commodo imperdiet in tellus enim curabitur pede nonummy arcu venenatis porttitor dis consectetuer orci dolor sed</p>
-            
-            <p class="verdict">Our Verdict: 
+
+            <p class="verdict">Our Verdict:
             We can say without holding back, that this is one of the most amazing creations that came out of Samsungs labs.
             <!-- We use span's so that in case we need to modify or change single item -->
             <div class="rating">
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
             </div>
             </p>
-        
-            <p><a href="index.html">Back to homepage</a></p>
+
+            <p><a href="../index.php">Back to homepage</a></p>
         </section>
     </body>
 

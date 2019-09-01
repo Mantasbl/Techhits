@@ -4,58 +4,60 @@
     <head>
 
         <Title> Tech Hits </Title>
-    
-        <link href="main.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="../css/main.css" rel="stylesheet" type="text/css"/>
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-        <link href="contact.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/contact.css" rel="stylesheet" type="text/css"/>
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
-    
+
     <body>
-        
-        <nav>
-            
-                <a href="index.html"><image id="icon" src="Icon.png" alt="#"></image></a>
-                
-                <ul>
-                
-                    <a class="navlinks" href="index.html"><li>Home</li>
-                    <image src="Hline.jpg"></image>
-                    </a>
-                    <a class="navlinks" href="about.html"><li>About</li>
-                    <image src="Hline.jpg"></image>
-                    </a>
-                    <a class="navlinks" href="contact.html"><li>Contact</li>
-                    <image src="Hline.jpg"></image>
-                    </a>
-                    
-                
-                </ul>    
-                
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our Page is still in development"><img src="facebook%20color.png" /></span>
-                </a>
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our Page is still in development"><img src="github%20color.1.png" /></span>
-                </a>
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our Channel is still in development"><img src="youtube%20color.png" /></span>
-                </a>
-                <a class="socialicons" href="#">
-                    <span title="Sorry! Our RSS feed is still in development"><img src="rss%20color.png" /></span>
-                </a>
-        </nav>
-        
+
+      <nav>
+
+              <a href="../index.php"><image id="icon" src="../assets/Icon.png" alt="#"></image></a>
+
+              <ul>
+                  <!-- Nav Bar main links to other pages-->
+                  <a class="navlinks" href="../index.php"><li>Home</li>
+                  <image src="../assets/Hline.jpg"></image>
+                  </a>
+                  <a class="navlinks" href="about.php"><li>About</li>
+                  <image src="../assets/Hline.jpg"></image>
+                  </a>
+                  <a class="navlinks" href="contact.php"><li>Contact</li>
+                  <image src="../assets/Hline.jpg"></image>
+                  </a>
+
+
+              </ul>
+              <!-- Social Icons in Nav bar-->
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our Page is still in development"><img src="../assets/facebook.png" /></span>
+              </a>
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our Page is still in development"><img src="../assets/github.png" /></span>
+              </a>
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our Channel is still in development"><img src="../assets/youtube.png" /></span>
+              </a>
+              <a class="socialicons" href="#">
+                  <span title="Sorry! Our RSS feed is still in development"><img src="../assets/rss.png" /></span>
+              </a>
+
+      </nav>
+
         <section class="contact">
             <section class="contactinfo">
-            
+
                 <h1>Contact us</h1>
-            
+
             </section>
             <section class="mailchimp">
-            
+
                                         <!-- Begin MailChimp Signup Form -->
-                
+
                 <style type="text/css">
                     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
                     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -90,7 +92,7 @@
                 </div>
 
                 <!--End mc_embed_signup-->
-            
+
             </section>
 
         </section>

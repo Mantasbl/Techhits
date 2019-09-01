@@ -3,6 +3,7 @@
     background:#212325;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    overflow:auto;
 }
 .contact h1 {
     padding-top:20%;
