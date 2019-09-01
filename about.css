@@ -1,0 +1,14 @@
+.about {
+    margin-left:420px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.about h1 {
+    padding-top:20%;
+    font-size: 60px;
+    color:yellow;
+}
+.about p {
+    color:white;
+    font-size: 30px;
+}

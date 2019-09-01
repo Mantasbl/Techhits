@@ -1,0 +1,24 @@
+.contact{
+    margin-left:420px;
+    background:#212325;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.contact h1 {
+    padding-top:20%;
+    font-size: 60px;
+    color:yellow;
+}
+.mailchimp{
+    margin-left:30%;
+    width:45%;
+}
+#mc_embed_signup form{
+    background:#212325;
+    font-family: 'Open Sans', sans-serif;
+    color:yellow;
+}
+#mc_embed_signup .button{
+    background:yellow;
+    color:#212325;
+}

@@ -1,0 +1,99 @@
+html, body { margin:0; padding:0 }
+html {
+    background:#212325;
+    
+}
+#icon {
+    margin-left:15%;
+    margin-top:10%;
+}
+/* We use specific width of nav bar, to make sure that it looks the same on all pages, regardless if the content is scrollable */
+nav{
+    width: 420px;
+    height: 100%;
+    position: fixed;
+    background: #111213;
+}
+nav ul{
+    margin-bottom:30%;
+}
+nav a{
+    margin-top:10px;
+    text-decoration: none;
+    list-style-type:none;
+    color:yellow;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color:yellow;
+}
+nav li{
+    margin:0;
+    font-size: 30px;
+    padding:10%;
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+    color:white;
+    cursor:pointer;
+}
+nav a:active{
+    color:white;
+}
+.socialicons {
+    margin-left:10%;
+}
+#jumbotron {
+    margin-left:420px;
+}
+footer {
+    margin-left:420px;
+}
+.back {
+    
+}
+/* Base code for whats underneath was incorporated and adapted from https://goo.gl/H7fUZo  */
+.da-thumbs{
+    text-decoration: none;
+    list-style-type: none;
+    height:200px;
+    margin-top:0;
+    padding-left:0;
+    
+}
+.da-thumbs li {
+	float: left;
+	background: #fff;
+	position: relative;
+    width: 25%;
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+    height:380px;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: #111213;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin-top:35%;
+    text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}

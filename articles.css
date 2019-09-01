@@ -1,0 +1,46 @@
+.articles {
+    margin-left:420px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#guardian{
+    color:yellow;
+    font-family: 'Amatic SC', cursive;
+    font-size: 120px;
+}
+.articles h1 {
+    padding-top:8%;
+    font-size: 60px;
+    color:yellow;
+}
+.articles h3 {
+    font-size: 45px;
+    color: yellow;
+}
+.articles p {
+    padding:10px 200px;
+    color:white;
+    font-size: 30px;
+}
+.mainimage {
+    padding-top:30px;
+}
+.rating {
+    font-size:50px;
+    color:yellow;
+}
+.articles table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.articles table {
+    border-spacing: 5px;
+    background-color: #f1f1c1;
+    font-family: 'Amatic SC', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+.articles th, td {
+    padding: 15px;
+}
