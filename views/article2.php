@@ -246,7 +246,7 @@
 
             </form>
 
-            <p><a href="../index.php">Back to homepage</a></p>
+            <p><a href="/techhits/">Back to homepage</a></p>
         </section>
     </body>
 
