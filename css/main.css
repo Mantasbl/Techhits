@@ -1,7 +1,7 @@
 html, body { margin:0; padding:0 }
 html {
     background:#212325;
-    
+
 }
 #icon {
     margin-left:15%;
@@ -22,7 +22,7 @@ nav a{
     text-decoration: none;
     list-style-type:none;
     color:yellow;
-    
+
 }
 a{
     text-decoration: none;
@@ -52,7 +52,7 @@ footer {
     margin-left:420px;
 }
 .back {
-    
+
 }
 /* Base code for whats underneath was incorporated and adapted from https://goo.gl/H7fUZo  */
 .da-thumbs{
@@ -61,13 +61,19 @@ footer {
     height:200px;
     margin-top:0;
     padding-left:0;
-    
+
 }
 .da-thumbs li {
 	float: left;
 	background: #fff;
 	position: relative;
-    width: 25%;
+  width: 25%;
+}
+/* Media query to remove white space around image containers on screens wider than 2561px */
+@media screen and (min-width:2561px){
+  .da-thumbs li {
+    width:20%;
+  }
 }
 .da-thumbs li a,
 .da-thumbs li a img {
