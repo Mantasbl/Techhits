@@ -1,0 +1,12 @@
+.content{
+    margin-left:420px;
+    background:#212325;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    overflow:auto;
+}
+.content h1 {
+    padding-top:20%;
+    font-size: 60px;
+    color:yellow;
+}

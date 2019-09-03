@@ -22,5 +22,6 @@ switch ($request) {
     // Everything else
     default:
         header('HTTP/1.0 404 Not Found');
+        require 'views/404.php';
         break;
 }
